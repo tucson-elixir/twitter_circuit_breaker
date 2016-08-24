@@ -1,2 +1,3 @@
-# twitter_circuit_breaker
-A simple Umbrella application to show the circuit breaker pattern in Elixir
+# Twitter Circuit Breaker
+## Description
+This is a simple application to show the circuit breaker pattern in a Phoenix/Elixir.
