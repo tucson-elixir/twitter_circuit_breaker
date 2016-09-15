@@ -66,7 +66,7 @@ let messagesContainer = $("#tweets")
 //})
 
 channel.on("new_tweet", payload => {
-  messagesContainer.append(`<br/>[${Date()}] ${payload.body}`)
+  messagesContainer.prepend(`<br/>[${Date()}] ${payload.body}`)
 })
 channel.join()
   .receive("ok", resp => { console.log("Joined successfully", resp) })

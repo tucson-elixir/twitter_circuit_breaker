@@ -37,7 +37,8 @@ defmodule Twitter.Mixfile do
   defp deps do
     [
       {:oauth, github: "tim/erlang-oauth"},
-      {:extwitter, git: "https://github.com/chrisfishwood/extwitter.git"}
+      {:extwitter, git: "https://github.com/chrisfishwood/extwitter.git"},
+      {:gen_stage, "~> 0.5"}
     ]
   end
 end
